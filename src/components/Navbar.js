@@ -22,7 +22,7 @@ const Navbar = () => {
         <div
           className={
             menuOpen
-              ? 'bg-black bg-opacity-70 h-screen absolute left-0 top-0 bottom-0 right-0'
+              ? 'bg-black bg-opacity-70 h-screen absolute left-0 top-0 bottom-0 right-0 lg:bg-transparent'
               : 'bg-transparent'
           }
         ></div>
